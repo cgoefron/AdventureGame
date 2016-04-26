@@ -10,6 +10,7 @@ public class PlayerMover : MonoBehaviour {
 	private Rigidbody2D rb2d;
 	private Animator animator;
 	private Vector3 scale;
+	public bool grounded;
 
 	void Start () {
 
@@ -35,13 +36,11 @@ public class PlayerMover : MonoBehaviour {
 			scale.x *= -1;
 			transform.localScale = scale;
 		}
+			
 
-		if (Input.GetButton("Jump")) {
-			rb2d.AddForce (Vector2.up * jumpspeed);
-		}
-
-		if (Input.GetButton("Jump")) {
+		if (Input.GetButton("Jump") && grounded == true) {
 			animator.SetBool ("Jump", true);
+			rb2d.AddForce (Vector2.up * jumpspeed);
 
 		} else {
 			animator.SetBool ("Jump", false);
@@ -67,19 +66,26 @@ public class PlayerMover : MonoBehaviour {
 //		Application.LoadLevel (3);
 
 	}
+
+	void OnCollisionEnter2D(Collision2D other){
+		if (other.gameObject.CompareTag("Ground")) {
+			grounded = true;
+		}
+	}
+
+	void OnCollisionStay2D(Collision2D other){
+		if (other.gameObject.CompareTag("Ground")) {
+			grounded = true;
+		}
+	}
+
+	void OnCollisionExit2D(Collision2D other){
+		if (other.gameObject.CompareTag("Ground")) {
+			grounded = false;
+		}
+	}
+
 }
 
 
-/*Transform lerpysPosition;
 
-	// Use this for initialization
-	void Start () {
-		lerpysPosition = GameObject.Find("Lerpy").transform;
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		transform.LookAt(lerpysPosition.position);
-		transform.position += Time.deltaTime * transform.forward;
-	}	
-}*/
