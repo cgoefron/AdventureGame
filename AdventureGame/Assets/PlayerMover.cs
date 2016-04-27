@@ -11,6 +11,7 @@ public class PlayerMover : MonoBehaviour {
 	private Animator animator;
 	private Vector3 scale;
 	public bool grounded;
+	public bool inspecting;
 
 	void Start () {
 
@@ -25,7 +26,7 @@ public class PlayerMover : MonoBehaviour {
 		xSpeed = Input.GetAxis ("Horizontal") * speed;
 		rb2d.velocity = new Vector2 (xSpeed, rb2d.velocity.y);
 
-		if (Mathf.Abs(Input.GetAxis ("Horizontal")) > 0.01) {
+		if (Mathf.Abs (Input.GetAxis ("Horizontal")) > 0.01) {
 			animator.SetBool ("Walk", true);
 		} else {
 			animator.SetBool ("Walk", false);
@@ -38,7 +39,7 @@ public class PlayerMover : MonoBehaviour {
 		}
 			
 
-		if (Input.GetButton("Jump") && grounded == true) {
+		if (Input.GetButton ("Jump") && grounded == true) {
 			animator.SetBool ("Jump", true);
 			rb2d.AddForce (Vector2.up * jumpspeed);
 
@@ -46,10 +47,22 @@ public class PlayerMover : MonoBehaviour {
 			animator.SetBool ("Jump", false);
 		}
 
-		if (Input.GetButton ("Fire1")) {
+		if (Input.GetButton ("Fire1") && grounded == true) {
 			animator.SetBool ("Inspect", true);
+			inspecting = true;
+			animator.SetBool ("Kneeling", true);
+			Debug.Log ("inspecting:" + inspecting);
+			//add logic for checking artifactObjects
 		} else {
+			//animator.SetBool ("Inspect", false);
+			//inspecting = false;
+		}
+
+		if (Input.GetButton ("Fire1") && inspecting == true) {
 			animator.SetBool ("Inspect", false);
+			animator.SetBool ("Kneeling", false);
+			inspecting = false;
+
 		}
 
 //	void OnCollisionEnter2D(Collision2D coll) {
