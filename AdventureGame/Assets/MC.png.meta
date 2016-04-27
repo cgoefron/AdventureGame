@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: c53868a72b0b04cc6a366b51142e421f
-timeCreated: 1461188950
+timeCreated: 1461698867
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -41,7 +41,7 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
+    filterMode: 0
     aniso: 16
     mipBias: -1
     wrapMode: 1
@@ -67,53 +67,44 @@ TextureImporter:
         serializedVersion: 2
         x: 8
         y: 2
-        width: 33
+        width: 32
         height: 94
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -13.5, y: 47}
-        - {x: -16.5, y: 37}
-        - {x: -16.5, y: -18}
-        - {x: -5.5, y: -47}
-        - {x: 16.5, y: -47}
-        - {x: 16.5, y: 3}
-        - {x: 8.5, y: 47}
-      - - {x: 13.5, y: 29}
-        - {x: 15.5, y: 27}
-        - {x: 16.5, y: 27}
-        - {x: 16.5, y: 32}
-        - {x: 14.5, y: 32}
+      - - {x: -13, y: 47}
+        - {x: -16, y: 37}
+        - {x: -16, y: -13}
+        - {x: -9, y: -38}
+        - {x: -5, y: -47}
+        - {x: 16, y: -47}
+        - {x: 16, y: -8}
+        - {x: 9, y: 43}
+        - {x: 6, y: 47}
     - name: MC_1
       rect:
         serializedVersion: 2
         x: 40
         y: 2
-        width: 34
+        width: 33
         height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 5, y: 47.5}
-        - {x: -14, y: 47.5}
-        - {x: -17, y: 43.5}
-        - {x: -17, y: -10.5}
-        - {x: -10, y: -47.5}
-        - {x: 17, y: -47.5}
-        - {x: 17, y: -14.5}
-        - {x: 9, y: 44.5}
-      - - {x: -14, y: -42.5}
-        - {x: -14, y: -36.5}
-        - {x: -15, y: -33.5}
-        - {x: -17, y: -33.5}
-        - {x: -17, y: -43.5}
-      - - {x: 14, y: 24.5}
-        - {x: 16, y: 22.5}
-        - {x: 17, y: 22.5}
-        - {x: 17, y: 27.5}
-        - {x: 15, y: 27.5}
+      - - {x: 8.5, y: 47.5}
+        - {x: -13.5, y: 47.5}
+        - {x: -16.5, y: 44.5}
+        - {x: -16.5, y: -32.5}
+        - {x: -14.5, y: -47.5}
+        - {x: 16.5, y: -47.5}
+        - {x: 16.5, y: 24.5}
+      - - {x: -13.5, y: -42.5}
+        - {x: -13.5, y: -36.5}
+        - {x: -14.5, y: -33.5}
+        - {x: -16.5, y: -33.5}
+        - {x: -16.5, y: -43.5}
     - name: MC_2
       rect:
         serializedVersion: 2
@@ -122,7 +113,7 @@ TextureImporter:
         width: 29
         height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: MC_3
@@ -133,7 +124,7 @@ TextureImporter:
         width: 31
         height: 92
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: MC_4
@@ -144,7 +135,7 @@ TextureImporter:
         width: 36
         height: 92
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -13, y: 46}
@@ -168,7 +159,7 @@ TextureImporter:
         width: 33
         height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -11.5, y: 46.5}
@@ -191,7 +182,7 @@ TextureImporter:
         width: 30
         height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: MC_7
@@ -202,7 +193,7 @@ TextureImporter:
         width: 29
         height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: MC_8
@@ -213,7 +204,7 @@ TextureImporter:
         width: 31
         height: 92
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: MC_9
@@ -224,7 +215,7 @@ TextureImporter:
         width: 39
         height: 92
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 6.5, y: 46}
@@ -246,7 +237,7 @@ TextureImporter:
         width: 33
         height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -11.5, y: 46.5}
@@ -265,7 +256,7 @@ TextureImporter:
         width: 29
         height: 92
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     outline: []
