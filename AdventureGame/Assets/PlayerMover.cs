@@ -12,6 +12,7 @@ public class PlayerMover : MonoBehaviour {
 	private Vector3 scale;
 	public bool grounded;
 	public bool inspecting;
+	public bool isMovable = true;
 
 	void Start () {
 
@@ -22,48 +23,12 @@ public class PlayerMover : MonoBehaviour {
 	}
 
 	void Update () {
+		Debug.Log ("inspecting:" + inspecting);
+		//Debug.Log ("grounded:" + grounded);
 
-		xSpeed = Input.GetAxis ("Horizontal") * speed;
-		rb2d.velocity = new Vector2 (xSpeed, rb2d.velocity.y);
+		if (isMovable == true) Movement ();
 
-		if (Mathf.Abs (Input.GetAxis ("Horizontal")) > 0.01) {
-			animator.SetBool ("Walk", true);
-		} else {
-			animator.SetBool ("Walk", false);
-		}
-
-		if ((xSpeed > 0 && scale.x < 0) || (xSpeed < 0 && scale.x > 0)) {
-
-			scale.x *= -1;
-			transform.localScale = scale;
-		}
-			
-
-		if (Input.GetButton ("Jump") && grounded == true) {
-			animator.SetBool ("Jump", true);
-			rb2d.AddForce (Vector2.up * jumpspeed);
-
-		} else {
-			animator.SetBool ("Jump", false);
-		}
-
-		if (Input.GetButton ("Fire1") && grounded == true) {
-			animator.SetBool ("Inspect", true);
-			inspecting = true;
-			animator.SetBool ("Kneeling", true);
-			Debug.Log ("inspecting:" + inspecting);
-			//add logic for checking artifactObjects
-		} else {
-			//animator.SetBool ("Inspect", false);
-			//inspecting = false;
-		}
-
-		if (Input.GetButton ("Fire1") && inspecting == true) {
-			animator.SetBool ("Inspect", false);
-			animator.SetBool ("Kneeling", false);
-			inspecting = false;
-
-		}
+		if (Input.GetButtonDown("Fire1")) Inspection ();
 
 //	void OnCollisionEnter2D(Collision2D coll) {
 //		if (coll.gameObject.tag == ("Enemy")) {
@@ -96,6 +61,51 @@ public class PlayerMover : MonoBehaviour {
 		if (other.gameObject.CompareTag("Ground")) {
 			grounded = false;
 		}
+	}
+
+	void Inspection() {
+		if (grounded == true) {
+			if (inspecting == true) {
+				//stop inspecting
+				animator.SetBool ("Kneeling", false);
+				animator.SetBool ("Inspect", false);
+				inspecting = false;
+				isMovable = true;
+			} else {
+				// start inspecting
+				animator.SetBool ("Inspect", true);
+				animator.SetBool ("Kneeling", true);
+				inspecting = true;
+				isMovable = false;
+			}
+		}
+	}
+
+	void Movement (){
+		xSpeed = Input.GetAxis ("Horizontal") * speed;
+		rb2d.velocity = new Vector2 (xSpeed, rb2d.velocity.y);
+
+		if (Mathf.Abs (Input.GetAxis ("Horizontal")) > 0.01) {
+			animator.SetBool ("Walk", true);
+		} else {
+			animator.SetBool ("Walk", false);
+		}
+
+		if ((xSpeed > 0 && scale.x < 0) || (xSpeed < 0 && scale.x > 0)) {
+
+			scale.x *= -1;
+			transform.localScale = scale;
+		}
+
+
+		if (Input.GetButton ("Jump") && grounded == true) {
+			animator.SetBool ("Jump", true);
+			rb2d.AddForce (Vector2.up * jumpspeed);
+
+		} else {
+			animator.SetBool ("Jump", false);
+		}
+	
 	}
 
 }
