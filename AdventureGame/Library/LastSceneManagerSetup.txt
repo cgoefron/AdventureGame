@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/ChristinaTestScene.unity
+- path: Assets/AndventureGame.unity
   isLoaded: 1
   isActive: 1
