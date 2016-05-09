@@ -1,0 +1,126 @@
+fileFormatVersion: 2
+guid: 0020bca44060e4e7a9ba53a3b6738fca
+timeCreated: 1462829668
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mistTop_0
+    21300002: mistTop_1
+    21300004: mistTop_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 8192
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: mistTop_0
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 7845
+        width: 292
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -88.83411, y: 41.757812}
+        - {x: -132.8341, y: -4.2421875}
+        - {x: -132.8341, y: -41.242188}
+        - {x: 133.1659, y: -41.242188}
+        - {x: 134.1659, y: -39.242188}
+        - {x: 134.1659, y: 4.7578125}
+        - {x: 100.16589, y: 41.757812}
+    - name: mistTop_1
+      rect:
+        serializedVersion: 2
+        x: 4282
+        y: 7842
+        width: 328
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -101.16626, y: 49.527344}
+        - {x: -115.16626, y: 43.527344}
+        - {x: -149.16626, y: -0.47265625}
+        - {x: -149.16626, y: -41.472656}
+        - {x: -132.16626, y: -48.472656}
+        - {x: 141.83374, y: -48.472656}
+        - {x: 149.83374, y: -39.472656}
+        - {x: 149.83374, y: 39.527344}
+        - {x: 136.83374, y: 49.527344}
+    - name: mistTop_2
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 3343
+        width: 381
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 115.56763, y: 58.687256}
+        - {x: -108.43237, y: 58.687256}
+        - {x: -135.43237, y: 15.687256}
+        - {x: -125.43237, y: -9.312744}
+        - {x: -124.43237, y: -10.312744}
+        - {x: -124.43237, y: -16.312744}
+        - {x: -123.43237, y: -18.312744}
+        - {x: -124.43237, y: -15.312744}
+        - {x: -132.43237, y: -4.312744}
+        - {x: -158.43237, y: -0.31274414}
+        - {x: -173.43237, y: -13.312744}
+        - {x: -173.43237, y: -50.312744}
+        - {x: -167.43237, y: -57.312744}
+        - {x: 163.56763, y: -57.312744}
+        - {x: 173.56763, y: -48.312744}
+        - {x: 173.56763, y: -1.3127441}
+        - {x: 117.56763, y: 57.687256}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
