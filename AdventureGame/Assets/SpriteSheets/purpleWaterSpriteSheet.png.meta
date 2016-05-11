@@ -1,0 +1,382 @@
+fileFormatVersion: 2
+guid: 7e5b00e6085da4017a1682ad4fade598
+timeCreated: 1462989393
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: purpleWater1
+    21300002: purpleWater2
+    21300004: purpleWater3
+    21300006: purpleWater4
+    21300008: purpleWater5
+    21300010: purpleWaterSpriteSheet_5
+    21300012: purpleWaterSpriteSheet_6
+    21300014: purpleWaterSpriteSheet_7
+    21300016: purpleWater6
+    21300018: purpleWaterSpriteSheet_9
+    21300020: purpleWaterSpriteSheet_10
+    21300022: purpleWater7
+    21300024: purpleWaterSpriteSheet_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: purpleWater1
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 10332
+        width: 700
+        height: 700
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.481659, y: -58.563232}
+        - {x: -21.481659, y: -61.563232}
+        - {x: -18.481659, y: -61.563232}
+        - {x: -16.481659, y: -59.563232}
+        - {x: -17.481659, y: -56.563232}
+        - {x: -20.481659, y: -56.563232}
+      - - {x: 14.518341, y: -61.563232}
+        - {x: 17.518341, y: -60.563232}
+        - {x: 17.518341, y: -57.563232}
+        - {x: 14.518341, y: -56.563232}
+        - {x: 12.518341, y: -58.563232}
+      - - {x: 15.518341, y: -33.563232}
+        - {x: 15.518341, y: -52.563232}
+        - {x: 17.518341, y: -54.563232}
+        - {x: 20.518341, y: -53.563232}
+        - {x: 21.518341, y: -33.563232}
+        - {x: 19.518341, y: -31.563232}
+        - {x: 17.518341, y: -31.563232}
+      - - {x: -25.481659, y: -32.563232}
+        - {x: -24.481659, y: -42.563232}
+        - {x: -15.481659, y: -42.563232}
+        - {x: -15.481659, y: -30.563232}
+        - {x: -18.481659, y: -16.563232}
+        - {x: -23.481659, y: -16.563232}
+        - {x: -25.481659, y: -17.563232}
+    - name: purpleWater2
+      rect:
+        serializedVersion: 2
+        x: 4119
+        y: 10332
+        width: 700
+        height: 700
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.784973, y: -58.563232}
+        - {x: -19.784973, y: -61.563232}
+        - {x: -16.784973, y: -61.563232}
+        - {x: -14.784973, y: -59.563232}
+        - {x: -15.784973, y: -56.563232}
+        - {x: -18.784973, y: -56.563232}
+      - - {x: 16.215027, y: -61.563232}
+        - {x: 19.215027, y: -60.563232}
+        - {x: 19.215027, y: -57.563232}
+        - {x: 16.215027, y: -56.563232}
+        - {x: 14.215027, y: -58.563232}
+      - - {x: 20.215027, y: -30.563232}
+        - {x: 17.215027, y: -33.563232}
+        - {x: 17.215027, y: -52.563232}
+        - {x: 19.215027, y: -54.563232}
+        - {x: 22.215027, y: -53.563232}
+        - {x: 24.215027, y: -34.563232}
+        - {x: 24.215027, y: -32.563232}
+        - {x: 21.215027, y: -30.563232}
+      - - {x: -22.784973, y: -16.563232}
+        - {x: -22.784973, y: -42.563232}
+        - {x: -13.784973, y: -42.563232}
+        - {x: -13.784973, y: -32.563232}
+        - {x: -16.784973, y: -16.563232}
+    - name: purpleWater3
+      rect:
+        serializedVersion: 2
+        x: 7124
+        y: 10332
+        width: 700
+        height: 700
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.026611, y: -58.563232}
+        - {x: -21.026611, y: -61.563232}
+        - {x: -18.026611, y: -61.563232}
+        - {x: -16.026611, y: -59.563232}
+        - {x: -17.026611, y: -56.563232}
+        - {x: -20.026611, y: -56.563232}
+      - - {x: 14.973389, y: -61.563232}
+        - {x: 17.973389, y: -60.563232}
+        - {x: 17.973389, y: -57.563232}
+        - {x: 14.973389, y: -56.563232}
+        - {x: 12.973389, y: -58.563232}
+      - - {x: 18.973389, y: -30.563232}
+        - {x: 15.973389, y: -33.563232}
+        - {x: 15.973389, y: -52.563232}
+        - {x: 17.973389, y: -54.563232}
+        - {x: 20.973389, y: -53.563232}
+        - {x: 22.973389, y: -34.563232}
+        - {x: 22.973389, y: -32.563232}
+        - {x: 19.973389, y: -30.563232}
+      - - {x: -24.026611, y: -16.563232}
+        - {x: -24.026611, y: -42.563232}
+        - {x: -15.026611, y: -42.563232}
+        - {x: -15.026611, y: -32.563232}
+        - {x: -18.026611, y: -16.563232}
+    - name: purpleWater4
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 5880
+        width: 700
+        height: 700
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.481659, y: -64.783325}
+        - {x: -21.481659, y: -67.783325}
+        - {x: -18.481659, y: -67.783325}
+        - {x: -16.481659, y: -65.783325}
+        - {x: -17.481659, y: -62.783325}
+        - {x: -20.481659, y: -62.783325}
+      - - {x: 14.518341, y: -67.783325}
+        - {x: 17.518341, y: -66.783325}
+        - {x: 17.518341, y: -63.783325}
+        - {x: 14.518341, y: -62.783325}
+        - {x: 12.518341, y: -64.783325}
+      - - {x: 16.518341, y: -36.783325}
+        - {x: 14.518341, y: -37.783325}
+        - {x: 14.518341, y: -57.783325}
+        - {x: 17.518341, y: -60.783325}
+        - {x: 20.518341, y: -59.783325}
+        - {x: 22.518341, y: -43.783325}
+        - {x: 22.518341, y: -36.783325}
+      - - {x: -24.481659, y: -46.783325}
+        - {x: -20.481659, y: -48.783325}
+        - {x: -15.481659, y: -48.783325}
+        - {x: -15.481659, y: -38.783325}
+        - {x: -18.481659, y: -22.783325}
+        - {x: -22.481659, y: -22.783325}
+        - {x: -24.481659, y: -24.783325}
+    - name: purpleWater5
+      rect:
+        serializedVersion: 2
+        x: 4119
+        y: 5880
+        width: 700
+        height: 700
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.784973, y: -64.783325}
+        - {x: -19.784973, y: -67.783325}
+        - {x: -16.784973, y: -67.783325}
+        - {x: -14.784973, y: -65.783325}
+        - {x: -15.784973, y: -62.783325}
+        - {x: -18.784973, y: -62.783325}
+      - - {x: 16.215027, y: -67.783325}
+        - {x: 19.215027, y: -66.783325}
+        - {x: 19.215027, y: -63.783325}
+        - {x: 16.215027, y: -62.783325}
+        - {x: 14.215027, y: -64.783325}
+      - - {x: 19.215027, y: -36.783325}
+        - {x: 17.215027, y: -38.783325}
+        - {x: 17.215027, y: -58.783325}
+        - {x: 19.215027, y: -60.783325}
+        - {x: 22.215027, y: -59.783325}
+        - {x: 24.215027, y: -39.783325}
+        - {x: 24.215027, y: -37.783325}
+        - {x: 22.215027, y: -36.783325}
+      - - {x: -22.784973, y: -46.783325}
+        - {x: -18.784973, y: -48.783325}
+        - {x: -13.784973, y: -48.783325}
+        - {x: -13.784973, y: -38.783325}
+        - {x: -16.784973, y: -22.783325}
+        - {x: -20.784973, y: -22.783325}
+        - {x: -22.784973, y: -24.783325}
+    - name: purpleWaterSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 2246
+        y: 10373
+        width: 200
+        height: 500
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: purpleWaterSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 5236
+        y: 10373
+        width: 200
+        height: 500
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: purpleWaterSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 8253
+        y: 10373
+        width: 200
+        height: 500
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: purpleWater6
+      rect:
+        serializedVersion: 2
+        x: 7124
+        y: 5880
+        width: 700
+        height: 700
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.026611, y: -64.783325}
+        - {x: -21.026611, y: -67.783325}
+        - {x: -18.026611, y: -67.783325}
+        - {x: -16.026611, y: -65.783325}
+        - {x: -17.026611, y: -62.783325}
+        - {x: -20.026611, y: -62.783325}
+      - - {x: 14.973389, y: -67.783325}
+        - {x: 17.973389, y: -66.783325}
+        - {x: 17.973389, y: -63.783325}
+        - {x: 14.973389, y: -62.783325}
+        - {x: 12.973389, y: -64.783325}
+      - - {x: 17.973389, y: -36.783325}
+        - {x: 15.973389, y: -38.783325}
+        - {x: 15.973389, y: -58.783325}
+        - {x: 17.973389, y: -60.783325}
+        - {x: 20.973389, y: -59.783325}
+        - {x: 22.973389, y: -39.783325}
+        - {x: 22.973389, y: -37.783325}
+        - {x: 20.973389, y: -36.783325}
+      - - {x: -24.026611, y: -46.783325}
+        - {x: -20.026611, y: -48.783325}
+        - {x: -15.026611, y: -48.783325}
+        - {x: -15.026611, y: -38.783325}
+        - {x: -18.026611, y: -22.783325}
+        - {x: -22.026611, y: -22.783325}
+        - {x: -24.026611, y: -24.783325}
+    - name: purpleWaterSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 2246
+        y: 5871
+        width: 200
+        height: 500
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: purpleWaterSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 5271
+        y: 5871
+        width: 200
+        height: 500
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: purpleWater7
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 1382
+        width: 700
+        height: 700
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.518341, y: -67.98001}
+        - {x: 17.518341, y: -66.98001}
+        - {x: 17.518341, y: -63.98001}
+        - {x: 14.518341, y: -62.98001}
+        - {x: 12.518341, y: -64.98001}
+      - - {x: 17.518341, y: -37.98001}
+        - {x: 15.518341, y: -39.98001}
+        - {x: 15.518341, y: -59.98001}
+        - {x: 17.518341, y: -61.98001}
+        - {x: 20.518341, y: -60.98001}
+        - {x: 22.518341, y: -40.98001}
+        - {x: 22.518341, y: -38.98001}
+        - {x: 20.518341, y: -37.98001}
+      - - {x: -24.481659, y: -23.980011}
+        - {x: -24.481659, y: -47.98001}
+        - {x: -20.481659, y: -48.98001}
+        - {x: -15.481659, y: -48.98001}
+        - {x: -15.481659, y: -37.98001}
+        - {x: -18.481659, y: -23.980011}
+    - name: purpleWaterSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 2246
+        y: 1369
+        width: 200
+        height: 500
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

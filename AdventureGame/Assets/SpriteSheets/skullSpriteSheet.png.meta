@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: cf2839bc386a342d2ad35d5dc77f408b
-timeCreated: 1462945111
+timeCreated: 1462980552
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -10,6 +10,7 @@ TextureImporter:
     21300006: skullSpriteSheet_4
     21300008: skullSpriteSheet_5
     21300010: skullSpriteSheet_6
+    21300012: skullSpriteSheet_7
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -184,6 +185,17 @@ TextureImporter:
         - {x: -14, y: -12.5}
         - {x: 21, y: -12.5}
         - {x: 21, y: 40.5}
+    - name: skullSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 8
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     outline: []
   spritePackingTag: 
   userData: 

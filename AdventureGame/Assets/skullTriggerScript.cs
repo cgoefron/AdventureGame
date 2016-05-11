@@ -3,13 +3,16 @@ using System.Collections;
 
 public class skullTriggerScript : MonoBehaviour {
 
-	// Use this for initialization
+	private Animator animator;
+
 	void Start () {
-	
+
+		animator = gameObject.GetComponent<Animator> ();
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+
+	void OnTriggerEnter2D(Collider2D other){
+		if (other.gameObject.CompareTag("Player")) {
+			animator.SetBool ("skullYell", true);
+		}
 	}
 }
