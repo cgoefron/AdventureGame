@@ -1,0 +1,1 @@
+skullSpriteSheet,78,100,7
