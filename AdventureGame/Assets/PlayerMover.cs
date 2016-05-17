@@ -14,7 +14,6 @@ public class PlayerMover : MonoBehaviour {
 	public bool inspecting;
 	public bool isMovable = true;
 	public bool trailing = false;
-	public GameObject trailRoot;
 
 	void Start () {
 
@@ -31,24 +30,6 @@ public class PlayerMover : MonoBehaviour {
 		if (isMovable == true) Movement ();
 
 		if (Input.GetButtonDown("Fire1")) Inspection ();
-
-//+++++++++++++++++ Trail Render Code
-
-//		// AmountToMove is a Vector3 of the amount we will translate this gameobject.
-//		float y = (int)AmountToMove.y == 0 ? 0 : -AmountToMove.y;
-//		float distanceFactor = 0.05f;
-//		for (int i = 0; i < GhostingRoot.childCount; ++i) {
-//			// Based on the player's current speed and movement along the x and y axes,
-//			// position the ghost sprites to trail behind.
-//			Vector3 ghostSpriteLocalPos = Vector3.Lerp(GhostingRoot.GetChild(i).localPosition, new Vector3((-CurrentSpeed * distanceFactor * i), (y * distanceFactor * i), 0), 10f * Time.deltaTime);
-//			// GhostingRoot is the root gameobject that's parent to the ghost sprites. 
-//			GhostingRoot.GetChild(i).localPosition = ghostSpriteLocalPos;
-//			// Sync the animations.
-//			// _ghostSprites is a List of the tk2dSpriteAnimator ghost sprites.
-//			_ghostSprites[i].Play(SpriteAnimator.CurrentClip.name);
-//			_ghostSprites[i].Sprite.FlipX = Sprite.FlipX;
-//		}
-//++++++++++++++++++++++++++++++
 
 //	void OnCollisionEnter2D(Collision2D coll) {
 //		if (coll.gameObject.tag == ("Enemy")) {
@@ -71,6 +52,12 @@ public class PlayerMover : MonoBehaviour {
 		}
 	}
 
+	void OnTriggerEnter2D(Collider2D other){
+		if (other.gameObject.CompareTag("trail")) {
+			trailing = true;
+		}
+	}
+
 	void OnCollisionStay2D(Collision2D other){
 		if (other.gameObject.CompareTag("Ground")) {
 			grounded = true;
@@ -80,13 +67,6 @@ public class PlayerMover : MonoBehaviour {
 	void OnCollisionExit2D(Collision2D other){
 		if (other.gameObject.CompareTag("Ground")) {
 			grounded = false;
-		}
-	}
-
-	void OnTriggerEnter2D(Collider2D other){
-		if (other.gameObject.CompareTag("trailTrigger")) {
-			trailing = true;
-			trailRoot.SetActive(true);
 		}
 	}
 
